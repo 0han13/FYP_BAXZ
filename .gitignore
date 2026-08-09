@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Git
+*.orig
+
+# Heavy / regenerable caches
+**/__pycache__/
+
+# Optional local experiment dumps (keep results/ archives)
+# Uncomment if pushes are too large:
+# outputs/
+# models/*.pkl
+# models/**/*.zip
+# data/raw/*.csv
+
+# Never commit secrets
+*.pem
+credentials.json
+.env.*
